@@ -1,0 +1,52 @@
+### GET request with a header
+GET http://localhost:8080/emp/api/employees
+Accept: application/json
+
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
+### GET request with a header
+GET http://localhost:8080/team/api/teams
+Accept: application/json
