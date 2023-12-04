@@ -13,11 +13,6 @@ spring:
           filters:
             - StripPrefix=1
             - AddResponseHeader=X-Powered-By, WpfeiffeGateway
-            - name: RequestRateLimiter
-              args:
-                redis-rate-limiter.replenishRate: 50
-                redis-rate-limiter.burstCapacity: 100
-                redis-rate-limiter.requestedTokens: 1
         - id: team-route
           uri: ${TEAM_ROUTE_URI:http://localhost:8081}
           predicates:
@@ -25,8 +20,15 @@ spring:
           filters:
             - StripPrefix=1
             - AddResponseHeader=X-Powered-By, WpfeiffeGateway
-            - name: RequestRateLimiter
-              args:
-                redis-rate-limiter.replenishRate: 50
-                redis-rate-limiter.burstCapacity: 100
-                redis-rate-limiter.requestedTokens: 1
+      default-filters:
+        - name: RequestRateLimiter
+          args:
+            redis-rate-limiter.replenishRate: 50
+            redis-rate-limiter.burstCapacity: 100
+            redis-rate-limiter.requestedTokens: 1
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
